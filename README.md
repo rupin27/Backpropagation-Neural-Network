@@ -5,7 +5,10 @@ This repository contains the implementation of the backpropagation algorithm to 
 <p>
   <i>Python 3.x</i><br>
   <i>NumPy</i><br>
-  <i>Pandas</i>
+  <i>Pandas</i><br>
+  <i>matplotlib</i><br>
+  <i>sklearn.preprocessing</i><br>
+  <i>csv</i><br>
 </p>
 
 ## Usage
@@ -23,7 +26,7 @@ To run the backpropagation algorithm and evaluate the neural network on the data
 2. Open a terminal or command prompt and navigate to the project directory.
 
 3. Run the following command to execute the backpropagation algorithm:
-python3 backprop_example.py
+> python3 backprop_example.py
 4. The algorithm will train the neural network using the specified configuration and display the progress and performance metrics during training.
 
 5. Once the training is complete, the algorithm will output the average performance of the neural network on the datasets.
